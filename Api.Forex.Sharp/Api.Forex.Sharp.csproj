@@ -14,11 +14,12 @@
     <Product>Api Forex Currency Converter</Product>
     <PackageTags>currency conversion exchange rate api.forex</PackageTags>
     <Copyright>Copyright 2018 Api Forex</Copyright>
-    <PackageProjectUrl>https://api.forex</PackageProjectUrl>
-    <AssemblyVersion>1.0.0.4</AssemblyVersion>
-    <FileVersion>1.0.0.4</FileVersion>
-    <Version>1.0.4</Version>
+    <PackageProjectUrl>https://github.com/ApiForex/Api.Forex.Sharp</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.5</AssemblyVersion>
+    <FileVersion>1.0.0.5</FileVersion>
+    <Version>1.0.5</Version>
     <PackageIconUrl>https://www.gravatar.com/userimage/135541355/7e44a5b45db1fed7fccd7cf09fd60c60?size=120</PackageIconUrl>
+    <PackageId>Api.Forex.Currency.Converter</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
