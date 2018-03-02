@@ -1,8 +1,30 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>netcoreapp2.0;net462</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>
+      Fast transmission and deserialization using Protobuf
+      Api.Forex.Currency.Converter is a wrapper for https://Api.Forex
+    </Description>
+    <PackageLicenseUrl>https://api.forex/terms</PackageLicenseUrl>
+    <Authors>Api Forex</Authors>
+    <Company>Api Forex</Company>
+    <Product>Api Forex Currency Converter</Product>
+    <PackageTags>currency conversion exchange rate api.forex</PackageTags>
+    <Copyright>Copyright 2018 Api Forex</Copyright>
+    <PackageProjectUrl>https://api.forex</PackageProjectUrl>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.0.4</FileVersion>
+    <Version>1.0.4</Version>
+    <PackageIconUrl>https://www.gravatar.com/userimage/135541355/7e44a5b45db1fed7fccd7cf09fd60c60?size=120</PackageIconUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
+    <PackageReference Include="protobuf-net" Version="2.3.7" />
+    <PackageReference Include="System.Net.Http" Version="4.3.3" />
+  </ItemGroup>
 
 </Project>
