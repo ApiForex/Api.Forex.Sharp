@@ -1,6 +1,8 @@
 # Api.Forex.Sharp
 Api.Forex.Sharp
 
+[![NuGet](https://img.shields.io/nuget/v/Api.Forex.Currency.Converter.svg)](https://www.nuget.org/packages/Api.Forex.Currency.Converter)
+
 Open a free account on https://api.forex and get an **api key**
 
     string ApiForexKey = "{YourKey}"
